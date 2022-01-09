@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <div class="nav container">
+        <a href="#" class="nav__logo">Quynh</a>
+        <div class="nav__menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <ion-icon name="home-outline"></ion-icon> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <ion-icon name="person-outline"></ion-icon> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <ion-icon name="document-outline"></ion-icon> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <ion-icon name="bag-outline"></ion-icon> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <ion-icon name="image-outline"></ion-icon> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contactme" class="nav__link">
+                <ion-icon name="chatbox-outline"></ion-icon> Contactme
+              </a>
+            </li>
+          </ul>
+          <ion-icon name="close-outline" class="nav__close"></ion-icon>
+        </div>
+        <div class="nav__btn">
+          <i class="far fa-moon change-theme"></i>
+          <ion-icon name="apps-outline" class="nav__toggle"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="#" class="home__social-icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#" class="home__social-icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#" class="home__social-icon">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="12"
+                    y="-15"
+                    href="assets/img/love.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hello, I'm Quynh</h1>
+              <h3 class="home__subtitle">Frontend developer</h3>
+              <p class="home__description">
+                High level experience in web design and development knowledge,
+                producing quality work.
+              </p>
+              <a href="#" class="button button--flex">
+                Contact Me
+                <ion-icon
+                  name="paper-plane-outline"
+                  class="button__icon"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#footer" class="button--flex home__scroll-button">
+              Scroll down
+              <ion-icon
+                name="arrow-down-outline"
+                class="home__scroll-arrow"
+              ></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+        <div class="about__container container grid">
+          <img src="assets/img/love4.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              Web developer, with extensive knowledge and years of experience,
+              working in web technologies and Ui / Ux design, delivering quality
+              work.
+            </p>
+            <div class="about__info">
+              <div class="about__info-small">
+                <span class="about__info-title">08+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+              <div class="about__info-small">
+                <span class="about__info-title">08+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  project</span
+                >
+              </div>
+              <div class="about__info-small">
+                <span class="about__info-title">08+</span>
+                <span class="about__info-name"
+                  >Companies <br />
+                  worked
+                </span>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="button button--flex about__button">
+            Dowload CV
+            <ion-icon name="download-outline" class="button__icon"></ion-icon>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+        <div class="skills__container container grid">
+          <div class="skill__container">
+            <!--==================== SKILL 1 ====================-->
+            <div class="skill__content">
+              <ion-icon
+                name="code-slash-outline"
+                class="skill__icon"
+              ></ion-icon>
+              <div class="skill__header">
+                <h1 class="skill__title">Frontend developer</h1>
+                <p class="skill__subtitle">More than 4 year</p>
+              </div>
+              <ion-icon
+                name="chevron-down-outline"
+                class="skill__arrow"
+              ></ion-icon>
+            </div>
+            <div class="skill__list">
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">HTML</h1>
+                  <span class="skill__number">90%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="html__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">CSS</h1>
+                  <span class="skill__number"> 80%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="js__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">JavaScript</h1>
+                  <span class="skill__number">70%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="css__skill"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill__container">
+            <!--==================== SKILL 2 ====================-->
+            <div class="skill__content">
+              <ion-icon name="layers-outline" class="skill__icon"></ion-icon>
+              <div class="skill__header">
+                <h1 class="skill__title">Backtend developer</h1>
+                <p class="skill__subtitle">More than 4 year</p>
+              </div>
+              <ion-icon
+                name="chevron-down-outline"
+                class="skill__arrow"
+              ></ion-icon>
+            </div>
+            <div class="skill__list">
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">PHP</h1>
+                  <span class="skill__number">80%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="html__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">Node Js</h1>
+                  <span class="skill__number"> 80%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="js__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">Python</h1>
+                  <span class="skill__number">70%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="css__skill"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill__container">
+            <!--==================== SKILL 3 ====================-->
+            <div class="skill__content">
+              <ion-icon
+                name="git-pull-request-outline"
+                class="skill__icon"
+              ></ion-icon>
+              <div class="skill__header">
+                <h1 class="skill__title">Desginer</h1>
+                <p class="skill__subtitle">More than 4 year</p>
+              </div>
+              <ion-icon
+                name="chevron-down-outline"
+                class="skill__arrow"
+              ></ion-icon>
+            </div>
+            <div class="skill__list">
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">Figma</h1>
+                  <span class="skill__number">90%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="html__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">Sketch</h1>
+                  <span class="skill__number"> 80%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="js__skill"></span>
+                </span>
+              </div>
+
+              <div class="skill__item">
+                <div class="skill__data">
+                  <h1 class="skill__name">Photoshop</h1>
+                  <span class="skill__number">70%</span>
+                </div>
+                <span class="skill__percentage">
+                  <span class="css__skill"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+        <div class="qualification__container container grid">
+          <div class="qualification__tabs">
+            <span
+              class="qualification__button qualification__button-active"
+              onclick="activeContent('#edu')"
+            >
+              <ion-icon
+                name="school-outline"
+                class="button__icon quali__icon"
+              ></ion-icon>
+              Education
+            </span>
+            <span
+              class="qualification__button"
+              onclick="activeContent('#work')"
+            >
+              <ion-icon
+                name="build-outline"
+                class="button__icon quali__icon"
+              ></ion-icon>
+              Work
+            </span>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content active" id="edu">
+              <!-- EDU 1 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Computer Engineer</h3>
+                  <span class="qualification__subtitle"
+                    >Hanoi - University</span
+                  >
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2009-2014
+                  </div>
+                </div>
+
+                <div>
+                  <div class="qualification__rounder"></div>
+                  <div class="qualification__line"></div>
+                </div>
+              </div>
+              <!-- EDU 2 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <div class="qualification__rounder"></div>
+                  <div class="qualification__line"></div>
+                </div>
+                <div class="pull__right">
+                  <h3 class="qualification__title">Web Desgin</h3>
+                  <span class="qualification__subtitle">Hanoi - Institute</span>
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2014-2017
+                  </div>
+                </div>
+              </div>
+              <!-- EDU 3 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle">Hanoi - Institute</span>
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2017-2019
+                  </div>
+                </div>
+
+                <div>
+                  <div class="qualification__rounder"></div>
+                  <div class="qualification__line"></div>
+                </div>
+              </div>
+              <!-- EDU 4 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <!-- <div class="qualification__line"></div> -->
+                  <div class="qualification__rounder"></div>
+                </div>
+                <div class="pull__right">
+                  <h3 class="qualification__title">Master Ui/Ux</h3>
+                  <span class="qualification__subtitle"
+                    >Vietnam - Institute</span
+                  >
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2019-2021
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+
+            <div class="qualification__content" id="work">
+              <!-- WORK 1 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Engineer</h3>
+                  <span class="qualification__subtitle"
+                    >Microsoft - Vietnam</span
+                  >
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2016-2018
+                  </div>
+                </div>
+
+                <div>
+                  <div class="qualification__rounder"></div>
+                  <div class="qualification__line"></div>
+                </div>
+              </div>
+              <!-- WORK 2 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <div class="qualification__rounder"></div>
+                  <div class="qualification__line"></div>
+                </div>
+                <div class="pull__right">
+                  <h3 class="qualification__title">Frontend Developer</h3>
+                  <span class="qualification__subtitle"
+                    >Apple Inc - Vietnam</span
+                  >
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2018-2020
+                  </div>
+                </div>
+              </div>
+              <!-- WORK 3 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ui Desginer</h3>
+                  <span class="qualification__subtitle">Figma - Vietnam</span>
+                  <div class="qualification__calendar">
+                    <ion-icon name="calendar-clear-outline"></ion-icon>
+                    2020-2021
+                  </div>
+                </div>
+
+                <div>
+                  <!-- <div class="qualification__line"></div> -->
+                  <div class="qualification__rounder"></div>
+                </div>
+              </div>
+
+              <div class="line-work">
+                <span class="circle circle-one"></span>
+                <span class="circle circle-two"></span>
+                <span class="circle circle-three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+
+        <div class="services__container container grid">
+          <div class="service__list">
+            <!--==================== SERVICES CARD 1 ====================-->
+            <div class="service__item">
+              <ion-icon name="people-outline" class="service__icon"></ion-icon>
+              <div class="service__data">
+                <span class="service__title">Ui/Ux Desginer</span>
+              </div>
+              <div class="service__button">
+                <a href="#services" onclick="openModal(1)"
+                  >View More
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="service__button-arrow"
+                  ></ion-icon>
+                </a>
+              </div>
+              <!-- MODAL 1 -->
+              <div class="modal" id="modal-1">
+                <div class="service__modal">
+                  <div class="service__modal-header">
+                    <h2 class="section__title">Ui/Ux Desginer</h2>
+                  </div>
+                  <ion-icon
+                    name="close-outline"
+                    class="out-modal"
+                    onclick="outModal(1)"
+                  ></ion-icon>
+                  <div class="service__modal-data">
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I develop user interface
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Web page development
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I creat ux element interactions
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I position your company brand
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== SERVICES CARD 2 ====================-->
+            <div class="service__item">
+              <ion-icon name="code-outline" class="service__icon"></ion-icon>
+              <div class="service__data">
+                <span class="service__title">Frontend Developer</span>
+              </div>
+              <div class="service__button">
+                <a href="#services" onclick="openModal(2)"
+                  >View More
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="service__button-arrow"
+                  ></ion-icon>
+                </a>
+              </div>
+              <!-- MODAL 2 -->
+              <div class="modal" id="modal-2">
+                <div class="service__modal">
+                  <div class="service__modal-header">
+                    <h2 class="section__title">Frontend Developer</h2>
+                  </div>
+                  <ion-icon
+                    name="close-outline"
+                    class="out-modal"
+                    onclick="outModal(2)"
+                  ></ion-icon>
+                  <div class="service__modal-data">
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I develop user interface
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Web page development
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I creat ux element interactions
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I position your company brand
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== SERVICES CARD 3 ====================-->
+            <div class="service__item">
+              <ion-icon name="pencil-outline" class="service__icon"></ion-icon>
+              <div class="service__data">
+                <span class="service__title">Brading Designer</span>
+              </div>
+              <div class="service__button">
+                <a href="#services" onclick="openModal(3)"
+                  >View More
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="service__button-arrow"
+                  ></ion-icon>
+                </a>
+              </div>
+              <!-- MODAL 3 -->
+              <div class="modal" id="modal-3">
+                <div class="service__modal">
+                  <div class="service__modal-header">
+                    <h2 class="section__title">Brading Designer</h2>
+                  </div>
+                  <ion-icon
+                    name="close-outline"
+                    class="out-modal"
+                    onclick="outModal(3)"
+                  ></ion-icon>
+                  <div class="service__modal-data">
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I develop user interface
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Web page development
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I creat ux element interactions
+                    </span>
+                    <span class="service__modal-info">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      I position your company brand
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div
+          class="portfolio__container container grid swiper-container mySwiper"
+        >
+          <div class="portfolio__list swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__item swiper-slide fade">
+              <div class="portfolio__overlay">
+                <img
+                  src="assets/img/portfolio1.jpg"
+                  alt=""
+                  class="portfolio__img"
+                />
+              </div>
+              <div class="portfolio__data">
+                <h2 class="portfolio__title">Online Store</h2>
+                <span class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </span>
+
+                <a href="#" class="button button--flex button__portfolio">
+                  Demo
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="button__icon"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__item swiper-slide fade">
+              <div class="portfolio__overlay">
+                <img
+                  src="assets/img/portfolio2.jpg"
+                  alt=""
+                  class="portfolio__img"
+                />
+              </div>
+              <div class="portfolio__data">
+                <h2 class="portfolio__title">Online Store</h2>
+                <span class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </span>
+
+                <a href="#" class="button button--flex button__portfolio">
+                  Demo
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="button__icon"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__item swiper-slide fade">
+              <div class="portfolio__overlay">
+                <img
+                  src="assets/img/portfolio3.jpg"
+                  alt=""
+                  class="portfolio__img"
+                />
+              </div>
+              <div class="portfolio__data">
+                <h2 class="portfolio__title">Online Store</h2>
+                <span class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </span>
+
+                <a href="#" class="button button--flex button__portfolio">
+                  Demo
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="button__icon"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next" onclick="plusPortfolioSlides(1)">
+            <ion-icon
+              name="chevron-forward-outline"
+              class="swiper-portfolio-icon"
+            ></ion-icon>
+          </div>
+          <div class="swiper-button-prev" onclick="plusPortfolioSlides(-1)">
+            <ion-icon
+              name="chevron-back-outline"
+              class="swiper-portfolio-icon"
+            ></ion-icon>
+          </div>
+          <div class="swiper-pagination swiper-pagination-portfolio"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+        <div class="project__container container grid">
+          <div class="project__content">
+            <h2 class="project__title">You have a new project</h2>
+            <span class="project__description"
+              >Contact me now and get a 30% discount on your new project.</span
+            >
+            <a href="#" class="button button--flex button__project"
+              >Contact Me
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="project__overlay">
+            <img src="assets/img/beo4.png" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">My client saying</span>
+
+        <div
+          class="testimonial__container container grid swiper-container mySwiper"
+        >
+          <div class="testimonial__list swiper-wrapper">
+            <!-- USER 1 -->
+            <div class="testimonial__item swiper-slide fade">
+              <div class="testimonial__user">
+                <div class="testimonial__info">
+                  <img
+                    src="assets/img/testimonial1.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div class="testimonial__name">
+                    <h2 class="testimonial__title">Sara Smith</h2>
+                    <span class="testimonial__subtitle">Client</span>
+                  </div>
+                </div>
+                <div class="testimonial__rate">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </div>
+            </div>
+            <!-- USER 2 -->
+            <div class="testimonial__item swiper-slide fade">
+              <div class="testimonial__user">
+                <div class="testimonial__info">
+                  <img
+                    src="assets/img/testimonial2.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div class="testimonial__name">
+                    <h2 class="testimonial__title">Sara Smith</h2>
+                    <span class="testimonial__subtitle">Client</span>
+                  </div>
+                </div>
+                <div class="testimonial__rate">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </div>
+            </div>
+            <!-- USER 3 -->
+            <div class="testimonial__item swiper-slide fade">
+              <div class="testimonial__user">
+                <div class="testimonial__info">
+                  <img
+                    src="assets/img/testimonial3.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div class="testimonial__name">
+                    <h2 class="testimonial__title">Sara Smith</h2>
+                    <span class="testimonial__subtitle">Client</span>
+                  </div>
+                </div>
+                <div class="testimonial__rate">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </div>
+            </div>
+          </div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-prev" onclick="plusSlides(-1)">
+            <ion-icon
+              name="chevron-back-outline"
+              class="swiper-portfolio-icon"
+            ></ion-icon>
+          </div>
+          <div class="swiper-button-next" onclick="plusSlides(1)">
+            <ion-icon
+              name="chevron-forward-outline"
+              class="swiper-portfolio-icon"
+            ></ion-icon>
+          </div>
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contactme">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div class="contact__list">
+            <div class="contact__item">
+              <ion-icon name="call-outline" class="contact__icon"></ion-icon>
+              <div class="contact__info">
+                <span class="contact__title">Call Me</span><br />
+                <span class="contact__subtitle">999 - 777 - 666</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <ion-icon name="mail-outline" class="contact__icon"></ion-icon>
+              <div class="contact__info">
+                <span class="contact__title">Email</span><br />
+                <span class="contact__subtitle">quynh@email.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <ion-icon
+                name="location-outline"
+                class="contact__icon"
+              ></ion-icon>
+              <div class="contact__info">
+                <span class="contact__title">Location</span><br />
+                <span class="contact__subtitle">Hanoi - Vietnam</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__form grid">
+            <div class="contact__info grid">
+              <input type="text" class="contact__input" placeholder="Name" />
+              <input type="text" class="contact__input" placeholder="Email" />
+            </div>
+            <input type="text" class="contact__input" placeholder="Project" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              class="contact__input"
+            ></textarea>
+            <a href="#" class="button button button--flex">
+              Send Message
+              <ion-icon
+                name="paper-plane-outline"
+                class="button__icon"
+              ></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+      <div class="footer__container container grid">
+        <div class="footer__list">
+          <div class="footer__item">
+            <h2 class="footer__title quynh">Quynh</h2>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+          <div class="footer__item footer__menu">
+            <span class="footer__title" onclick="activeNavLink(3)"
+              ><a href="#services">Services</a></span
+            >
+            <span class="footer__title" onclick="activeNavLink(4)"
+              ><a href="#portfolio">Portfolio</a></span
+            >
+            <span class="footer__title" onclick="activeNavLink(5)"
+              ><a href="#contactme">Contactme</a></span
+            >
+          </div>
+          <div class="footer__item footer__social">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+          </div>
+        </div>
+        <p class="footer__right">@Quynh. All right reversed</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scroll-top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--==================== SWIPER JS ====================-->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
