@@ -813,6 +813,12 @@ img {
   border: 2px solid var(--first-color);
 }
 /*==================== FOOTER ====================*/
+.white-color {
+  color: #fff;
+}
+.white-color:hover {
+  color: #ccc;
+}
 .footer__container {
   padding: 2rem;
   margin: 0;
